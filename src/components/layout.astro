@@ -1,5 +1,5 @@
 ---
-const { title, description, home = false, meta } = Astro.props;
+const { title, description, home = false, siteName } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -194,7 +194,7 @@ const { title, description, home = false, meta } = Astro.props;
     <nav>
       <ul>
         <li>
-          <a class="footer-link" href="/">&copy; {meta.siteName} {new Date().getFullYear()}. All rights reserved.</a>
+          <a class="footer-link" href="/">&copy; {siteName} {new Date().getFullYear()}. All rights reserved.</a>
         </li>
         <li>
           <a class="footer-link" href="https://www.netlify.com/privacy/">Privacy</a>
