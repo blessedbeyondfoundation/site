@@ -1,0 +1,24 @@
+---
+import Layout from '../components/layout.astro';
+---
+
+<Layout
+  title="Blessed Beyond Foundation - Services"
+  description="See our Services and how we can bless you!"
+>
+  <main>
+    <h2>This is just a few of our Services/Blessings.</h2>
+    <p>If you have any software/web needs not listed just let us know, I bet we can help!</p>
+    <ol>
+      <li>DevSecOps/li>
+      <li>eCommerce/Web</li>
+      <li>Software/Solutions</li>      
+    </ol>
+    <p>
+    More details coming soon about our delivery process.
+      <a href="/contact">
+        Reach out if you have immediated needs.
+      </a>
+    </p>
+  </main>
+</Layout>
