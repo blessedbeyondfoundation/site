@@ -4,9 +4,7 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://blessedbeyondfoundation.com',
-  meta: {
-    siteName: 'Blessed Beyond Foundation'
-  },
+  siteName: 'Blessed Beyond Foundation',
   integrations: [
     preact(),
     sitemap({
